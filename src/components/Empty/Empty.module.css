@@ -1,0 +1,39 @@
+.empty {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.empty-task {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 24px;
+}
+
+.empty-task img {
+    max-width: 80px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.content span,
+.content p {
+    font-size: 1rem;
+    line-height: 140%;
+    margin-bottom: 0;
+    color: var(--gray-300);
+}
+
+.content span {
+    font-weight: bold;
+}
+
+.content p {
+    font-weight: 400;
+}
